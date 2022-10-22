@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:  #333448;
+}
+
+/**<-----  Navbar  ----->**/
+.navbar{
+    padding: 6rem;
+}
+
+.navbar-brand .logo{
+    width: 250px;
+    padding: 0 0 2rem 0;
+}
+
+.navbar-nav .nav-link.active{
+    font-family: "Poppins";
+    color: #00FBCB;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.navbar-nav .nav-link{
+    font-family: "Poppins";
+    color: whitesmoke;
+    font-size: 1.3rem;
+}
