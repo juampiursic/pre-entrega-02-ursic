@@ -324,3 +324,40 @@ body{
         border-radius: px;
     }
 }
+
+/**<----- Animaciones ----->**/
+
+@keyframes buttonAnimate {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+    
+}
+
+@keyframes leftIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-250px);
+    }
+    
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes gameAnimate {
+    0% {
+        opacity: 0;
+        transform: translateY(250px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
