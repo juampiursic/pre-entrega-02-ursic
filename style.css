@@ -34,6 +34,78 @@ body{
     font-size: 1.3rem;
 }
 
+/**<-----  Hero  ----->**/
+
+.home {
+    padding: 6rem;
+    display: grid; 
+    grid-template-columns: repeat(5, 1fr); 
+    grid-template-rows: repeat(2, 1fr); 
+    gap: 0px 0px; 
+    grid-template-areas: 
+    "text text text game game"
+    "text text text game game"; 
+}
+    .text { grid-area: text; }
+    .game { grid-area: game; }
+
+
+    .home .text{
+        padding: 4rem;
+        animation: leftIn 1s ease 0s 1 normal forwards;
+    }
+    .home h1{
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-size: 5rem;
+        color: whitesmoke;
+        width: 90%;
+    }
+
+    .home p{
+        padding: 1rem 0 0 0;
+        font-family: "Poppins", sans-serif;
+        color: whitesmoke;
+        font-size: 1.3rem;
+        width: 45%;
+    }
+
+
+    button.beta{
+        padding: 20px 50px 20px 50px;
+        margin: 1rem 0 0 0;
+        font-family: "Poppins";
+        background-color: transparent;
+        border: solid 1px white;
+        color: whitesmoke;
+        font-weight: 700;
+        font-size: 1.2rem;
+        border-radius: 30px;
+    }
+
+    button.beta:hover{
+        padding: 20px 50px 20px 50px;
+        margin: 1rem 0 0 0;
+        font-family: "Poppins";
+        background-color: transparent;
+        border: solid 1px #0C9090;
+        background-color: #0C9090;
+        font-weight: 700;
+        font-size: 1.2rem;
+        border-radius: 30px;
+    }
+
+    .home .game{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        object-fit: contain;
+        animation: gameAnimate 1s ease 0s 1 normal forwards;
+    }
+
+
+
 @media screen and (max-width: 600px) {
 
     .navbar{
