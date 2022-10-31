@@ -104,6 +104,127 @@ body{
         animation: gameAnimate 1s ease 0s 1 normal forwards;
     }
 
+
+    /* <------ Trending ------> */
+
+main.trending section aside {
+
+    /* Position */
+    position: absolute;
+    
+    /* Padding */
+    padding-left: 45%;
+}
+
+main.trending section aside h1{
+
+    /* Font */
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+    font-size: 7rem;
+
+    /* Color */
+    color: whitesmoke;
+
+    /* Size */
+    width: 80%;
+
+    /* Padding */
+    padding-bottom: 0%;
+}
+
+main.trending section aside p{
+
+    /* Font */
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    /* Color */
+    color: whitesmoke;
+
+    /* Size */
+    width: 60%;
+}
+
+main.trending div.connections{
+
+    /* Padding, Margin & Position */   
+    position: relative;
+    margin-top: 4%;
+    padding-left: 10%;
+}
+
+main.trending section #uno{
+
+    /* Color */    
+    background-color: #0C9090;
+
+    /* Size */
+    width: 300px;
+    height: 500px;
+
+    /* Border Style */
+    border: 5px solid #333448;
+
+    /* Padding, Margin & Position */
+    margin: 50px;
+    margin-left: 450px;
+    position: absolute;
+    
+}
+
+main.trending section #dos{
+
+    /* Color */
+    background-color: #0C9090;
+    width: 600px;
+    height: 600px;
+
+    /* Border Style */
+    border: 5px solid #333448;
+
+    /* Padding, Margin & Position */
+    margin-left: 20px;
+    margin-top: 100px;
+    position: absolute;
+}
+
+main.trending section #tres{
+
+    /* Color */    
+    background-color: #0C9090;
+
+    /* Size */
+    width: 400px;
+    height: 500px;
+
+    /* Border Style */
+    border: 5px solid #333448;
+
+    /* Padding, Margin & Position */
+    margin-left: 250px;
+    margin-top: 250px;
+    position: absolute;
+}
+
+main.trending section #cuatro{
+
+    /* Color */
+    background-color: #0C9090;
+
+    /* Size */
+    width: 400px;
+    height: 600px;
+
+    /* Border Style */
+    border: 5px solid #333448;
+
+    /* Padding, Margin & Position */
+    margin-left: 100px;
+    position: absolute;
+}
+
 /**<-----  Contact  ----->**/
 
 .contact {
