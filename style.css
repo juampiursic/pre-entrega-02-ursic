@@ -225,6 +225,80 @@ main.trending section #cuatro{
     position: absolute;
 }
 
+/* <------ Features ------> */
+
+main.features h1{
+
+    /* Font */
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+    
+    /* Color */
+    color: #A4A7B2;
+    
+    /* Size */
+    width: 50%;
+    
+    /* Padding, Margin & Position */
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+main.features p {
+
+    /* Font */
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    /* Color */
+    color: #686B76;
+
+    /* Size */
+    width: 50%;    
+
+    /* Padding, Margin & Position */
+    padding-left: 10%;
+}
+
+main.features #banner{
+    
+    /* Color */
+    background-color: #686B76;
+    
+    /* Size */
+    width: 1000px;
+    height: 500px;
+
+    /* Padding, Margin & Position */
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 10%;
+}
+
+main.features aside{
+
+    /* Padding, Margin & Position */
+    position: absolute;
+    padding-left: 60%;
+    margin-top: 24%;
+
+}
+main.features #featuresUno{
+
+    /* Color */
+    background-color: #686B76;
+
+    /* Size */
+    width: 200px;
+    height: 200px;
+
+    /* Padding, Margin & Position */
+    margin: 5%;
+    display: inline-block;
+}
+
 /**<-----  Contact  ----->**/
 
 .contact {
