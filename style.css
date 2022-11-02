@@ -235,14 +235,14 @@ main.features h1{
     font-size: 5rem;
     
     /* Color */
-    color: #A4A7B2;
+    color: whitesmoke;
     
     /* Size */
     width: 50%;
     
     /* Padding, Margin & Position */
     padding-left: 10%;
-    padding-top: 5%;
+    padding-top: 0%;
 }
 
 main.features p {
@@ -253,7 +253,7 @@ main.features p {
     font-weight: 400;
 
     /* Color */
-    color: #686B76;
+    color: whitesmoke;
 
     /* Size */
     width: 50%;    
@@ -265,7 +265,7 @@ main.features p {
 main.features #banner{
     
     /* Color */
-    background-color: #686B76;
+    background-color: #00FBCB;
     
     /* Size */
     width: 1000px;
@@ -273,7 +273,7 @@ main.features #banner{
 
     /* Padding, Margin & Position */
     position: absolute;
-    margin-top: 25%;
+    margin-top: 5%;
     margin-left: 10%;
 }
 
@@ -282,13 +282,13 @@ main.features aside{
     /* Padding, Margin & Position */
     position: absolute;
     padding-left: 60%;
-    margin-top: 24%;
+    margin-top: 5%;
 
 }
 main.features #featuresUno{
 
     /* Color */
-    background-color: #686B76;
+    background-color: whitesmoke;
 
     /* Size */
     width: 200px;
