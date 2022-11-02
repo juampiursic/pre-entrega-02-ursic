@@ -299,6 +299,61 @@ main.features #featuresUno{
     display: inline-block;
 }
 
+/* <------ Connnections ------> */
+
+main.connections section h1{
+    /* Font */
+    font-family: Poppins, sans-serif;
+    font-weight: 900;
+    font-size: 5rem;
+
+    /* Color */
+    color: whitesmoke;
+
+    /* Size */
+    width: 50%;
+
+    /* Padding, Margin & Position */
+    padding-top: 0%;
+    padding-left: 10%;
+}
+
+main.connections section p{
+
+    /* Font */
+    font-family: Poppins, sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+    /* Color */
+    color: whitesmoke;
+
+    /* Size */
+    width: 50%;   
+
+    /* Padding, Margin & Position */
+    padding-top: 0%;
+    padding-left: 10%;  
+}
+
+main.connections .game{
+
+    padding-left: 10%;
+}
+main.connections #gameConnections{
+
+    /* Color */
+    background-color: whitesmoke;
+
+    /* Size */
+    width: 400px;
+    height: 500px;
+
+    /* Padding, Margin & Position */
+    margin: 2%;
+    display: inline-block;
+}
+
 /**<-----  Contact  ----->**/
 
 .contact {
