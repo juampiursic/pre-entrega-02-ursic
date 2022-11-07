@@ -641,7 +641,7 @@ button.beta:hover{
 
     .home .ragnarok{
         background-image: url(./resources/ragnarok.png);
-        background-size: contain;
+        background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
         padding: 2rem;
